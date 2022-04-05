@@ -10,7 +10,7 @@ update
 set                                                                                                                    
 	pts = 237                                                                                                          
 where                                                                                                                  
-	selecao like 'Brasil'                                                                                              
+	selecao like 'Brasil';                                                                                              
 	                                                                                                                   
                                                                                                                        
 update                    	                                                                                           
@@ -18,51 +18,51 @@ update
 set                       	                                                                                           
 	pts = 221                	                                                                                       
 where                     	                                                                                           
-	selecao like 'Alemanha'    	                                                                                       
+	selecao like 'Alemanha';    	                                                                                       
 	                                                                                                                   
 update                                                                                                                 
 	kopas                    	                                                                                       
 set                       	                                                                                           
 	pts = 156                	                                                                                       
 where                     	                                                                                           
-	selecao like 'Itália'    	                                                                                       
+	selecao like 'Itália';    	                                                                                       
                                                                                                                        
 update                    	                                                                                           
 	kopas                    	                                                                                       
 set                       	                                                                                           
 	pts = 144                	                                                                                       
 where                     	                                                                                           
-	selecao like 'Argentina'    	                                                                                   
+	selecao like 'Argentina';    	                                                                                   
 	                                                                                                                   
 	                                                                                                                   
 update                                                                                                                 
 	kopas                    	                                                                                       
 set                       	                                                                                           
 	pts = 115                	                                                                                       
-	where                                                                                                              
-		selecao like 'França'                                                                                          
+where                                                                                                              
+	selecao like 'França';                                                                                          
 		                                                                                                               
 		                                                                                                               
 update                                                                                                                 
 	kopas                    	   		                                                                               
 set                       	   		                                                                                   
 	pts = 105                	   		                                                                               
-	where                        		                                                                               
-		selecao like 'Espanha'       		                                                                           
+where                        		                                                                               
+	selecao like 'Espanha';       		                                                                           
                                                                                                                        
 update                                                                                                                 
 	kopas                    	   		                                                                               
 set                       	   		                                                                                   
 	pts = 84                	   		                                                                               
-	where                        		                                                                               
-		selecao like 'Uruguai'       		                                                                           
+where                        		                                                                               
+	selecao like 'Uruguai';       		                                                                           
                                                                                                                        
 update                                                                                                                 
 	kopas                    	   		                                                                               
 set                       	   	                                                                                       
-		pts = 108                	                                                                                   
-		where                                                                                                          
-			selecao like 'Inglaterra'                                                                                  
+	pts = 108                	                                                                                   
+where                                                                                                          
+	selecao like 'Inglaterra';                                                                                  
 	                                                                                                                   
                                                                                                                        
 select  * from kopas;                                                                                                  
